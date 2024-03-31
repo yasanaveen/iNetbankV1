@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InetBanking]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.DemoBankUtilities.Reprting"/>
+  </listeners>
+  <test thread-count="5" name="Banking Test(failed)">
+    <classes>
+      <class name="com.Guru99BankApplicationWebPagesTesting.New_CustomerPage_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="LoginDetails"/>
+        </methods>
+      </class> <!-- com.Guru99BankApplicationWebPagesTesting.New_CustomerPage_Test -->
+    </classes>
+  </test> <!-- Banking Test(failed) -->
+</suite> <!-- Failed suite [InetBanking] -->

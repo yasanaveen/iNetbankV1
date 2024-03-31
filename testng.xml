@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="InetBanking">
+
+	<listeners>
+		<listener class-name="com.DemoBankUtilities.Reprting" />
+
+	</listeners>
+
+	<test name="Banking Test">
+
+		<!-- <parameter name="browser" value="chrome" /> -->
+
+		<classes>
+			<class name="com.Guru99BankApplicationWebPagesTesting.Guru99Bank_LoginPageTest" />
+			    <class name="com.Guru99BankApplicationWebPagesTesting.New_CustomerPage_Test" /> 
+			    <class name="com.Guru99BankApplicationWebPagesTesting.EditCustomerPageTest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
